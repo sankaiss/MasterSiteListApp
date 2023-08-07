@@ -1,0 +1,60 @@
+@model List<Site>
+
+<h1>MasterSiteList</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ort</th>
+            <th>Gatuadress</th>
+            <th>Site Typ</th>
+            <th>Gammal adress (efter flytt)</th>
+            <th>Leverantör</th>
+            <th>Status</th>
+            <th>Nätverkskapacitet Mb/s, Gb/s</th>
+            <th>Kontakt (namn) ISS Kontor / Site</th>
+            <th>Mobilnr</th>
+            <th>Epostadress</th>
+            <th>WAN Uplink</th>
+            <th>Antal enheter</th>
+            <th>Sitestorlek</th>
+            <th>Kommentarer</th>
+            @if (User.IsInRole("admin"))
+            {
+                <th></th> <!-- Knapp för ändra -->
+                <th></th> <!-- Knapp för radera -->
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var site in Model)
+        {
+            <tr>
+                <td>@site.Ort</td>
+                <td>@site.Gatuadress</td>
+                <td>@site.SiteTyp</td>
+                <td>@site.GammalAdress</td>
+                <td>@site.Leverantör</td>
+                <td>@site.Status</td>
+                <td>@site.Nätverkskapacitet</td>
+                <td>@site.KontaktNamn</td>
+                <td>@site.ISSKontorSite</td>
+                <td>@site.Mobilnr</td>
+                <td>@site.Epostadress</td>
+                <td>@site.WANUplink</td>
+                <td>@site.AntalEnheter</td>
+                <td>@site.SiteStorlek</td>
+                <td>@site.Kommentarer</td>
+                @if (User.IsInRole("admin"))
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@site.Id">Ändra</a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@site.Id">Radera</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

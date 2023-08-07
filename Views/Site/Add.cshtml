@@ -1,0 +1,67 @@
+@model Site
+
+<h1>Lägg till ny rad/site</h1>
+
+<form asp-action="Add">
+    <div class="form-group">
+        <label asp-for="Ort">Ort:</label>
+        <input asp-for="Ort" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="Gatuadress">Gatuadress:</label>
+        <input asp-for="Gatuadress" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="SiteTyp">Site Typ:</label>
+        <input asp-for="SiteTyp" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="GammalAdress">Gammal adress (efter flytt):</label>
+        <input asp-for="GammalAdress" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Leverantör">Leverantör:</label>
+        <input asp-for="Leverantör" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="Status">Status:</label>
+        <input asp-for="Status" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nätverkskapacitet">Nätverkskapacitet Mb/s, Gb/s:</label>
+        <input asp-for="Nätverkskapacitet" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="KontaktNamn">Kontakt (namn) ISS Kontor / Site:</label>
+        <input asp-for="KontaktNamn" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ISSKontorSite">ISS Kontor / Site:</label>
+        <input asp-for="ISSKontorSite" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Mobilnr">Mobilnr:</label>
+        <input asp-for="Mobilnr" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Epostadress">Epostadress:</label>
+        <input asp-for="Epostadress" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="WANUplink">WAN Uplink:</label>
+        <input asp-for="WANUplink" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="AntalEnheter">Antal enheter:</label>
+        <input asp-for="AntalEnheter" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="SiteStorlek">Sitestorlek:</label>
+        <input asp-for="SiteStorlek" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Kommentarer">Kommentarer:</label>
+        <input asp-for="Kommentarer" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Lägg till</button>
+</form>
