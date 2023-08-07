@@ -1,0 +1,8 @@
+C:\azure\MasterSiteWebApp\MasterSiteListApp\obj\Debug\net7.0\MasterSiteListApp.csproj.AssemblyReference.cache
+C:\azure\MasterSiteWebApp\MasterSiteListApp\obj\Debug\net7.0\MasterSiteListApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\azure\MasterSiteWebApp\MasterSiteListApp\obj\Debug\net7.0\MasterSiteListApp.AssemblyInfoInputs.cache
+C:\azure\MasterSiteWebApp\MasterSiteListApp\obj\Debug\net7.0\MasterSiteListApp.AssemblyInfo.cs
+C:\azure\MasterSiteWebApp\MasterSiteListApp\obj\Debug\net7.0\MasterSiteListApp.csproj.CoreCompileInputs.cache
+C:\azure\MasterSiteWebApp\MasterSiteListApp\obj\Debug\net7.0\MasterSiteListApp.MvcApplicationPartsAssemblyInfo.cache
+C:\azure\MasterSiteWebApp\MasterSiteListApp\obj\Debug\net7.0\MasterSiteListApp.RazorAssemblyInfo.cache
+C:\azure\MasterSiteWebApp\MasterSiteListApp\obj\Debug\net7.0\MasterSiteListApp.RazorAssemblyInfo.cs

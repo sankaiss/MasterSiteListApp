@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "0A2IlfsXICXDzF67mlXH+GyHFL2bdnL/LcT+G6YOJxilbuxvq+t9060ajGwToXFA95RKS4T4Vbgqyji3kxXH/A==",
+  "dgSpecHash": "6ldgSwWGSqi0NlfK7Vyx/H8C/RcZIC8wfNVLZexnQs+a3mNUhbudj4m+sA2gKGt3oBKBr4HzSn9f8ujd3MoQ9Q==",
   "success": true,
   "projectFilePath": "C:\\azure\\MasterSiteWebApp\\MasterSiteListApp\\MasterSiteListApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.9\\microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leon-Emma\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
